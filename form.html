@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+</head>
+<body>
+    <form action="tips.html">
+        <nav align="center">
+        <a href="index.html">Home</a> |
+        <a href="form.html">Form</a> |
+        <a href="tips.html">Tips</a>
+    </nav>
+    <hr>
+
+       <p><b><h2 align="center"> Study habit form</h2></b></p><hr>
+        Please fill your daily study details <br>
+        Name: <input type="text" name="Name" id="Student" placeholder="enter name"> <br><br>
+        USN:<input type="text" name="USN" id="Student" placeholder="enter USN"><br><br>
+        Branch:<input type="text" name="Name" id="Student" placeholder="enter branch"><br><br>
+        Semester:<input type="number" name="Name" id="Student" placeholder="enter sem"><br> <br><hr>
+
+        <h3>Study details:</h3><br>
+        Hours studied:____ <br><br>
+        Subject studied:  <br>
+        <input type="checkbox" id="subjects">
+        <label for="subjects">DAA</label><br>
+        <input type="checkbox"  id="subject1"> 
+        <label for="subject1">DBMS</label><br>
+        <input type="checkbox"  id="subject2">
+        <label for="subject2">Biology</label><br>
+        <input type="checkbox" id="subject3">
+        <label for="subject3">Iot</label><br>
+
+        Preferred studying time <br><br>
+
+        <input type="radio"  name="timings" id="su">
+        <label for="su">Morning</label><br>
+        <input type="radio"name="timings" id="sj">
+        <label for="sj">Afternoon</label><br>
+        <input type="radio" name="timings" id="ss">
+        <label for="ss">Night</label><br><hr>
+
+       <h3> Lifestyle details: </h3> <br>
+        Sleep hours: <br>
+        <input type="range" min="0" max="10" step="1">
+        <label for="Volume">Hours</label><br>
+
+        Break duration:  <br>
+        <input type="range" min="0" max="10" step="1">
+        <label for="Volume">Hours</label><br>
+
+        Water intake:  <br>
+        <input type="range" min="0" max="10" step="1">
+        <label for="Volume">liters</label><br>
+<hr>
+       <h3>Productivity section  </h3>  <br>
+
+        Distraction level:  <br>
+
+         <input type="radio" name="distration" id="high">
+        <label for="high">Highly distracted</label><br>
+
+        <input type="radio" name="distration" id="moderate">
+        <label for="moderate">moderate distractions</label><br>
+
+        <input type="radio" name="distration" id="no">
+        <label for="no">no distractions</label><br>
+
+        Productivity rating:  <br>
+        <select name="rating" id="values">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+        </select><br><br><hr>
+
+        
+
+        <label for="feedback">Enter your comments:</label><br><br>
+        <textarea name="feedback" ></textarea>
+
+        <button type="reset">reset</button>
+        <button href="tips.html"> submit</button>
+        
+    </form>
+    
+    
+</body>
+</html>
